@@ -5,10 +5,10 @@
 
 
 #ifdef _WIN32
-    #define cleare_screen "cls"
+    #define clear_screen "cls"
 
 #elif __linux__
-    #define cleare_screen "clear"
+    #define clear_screen "clear"
 
 #endif
 
