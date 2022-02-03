@@ -73,7 +73,7 @@ int display_menu() {
     
     }
 
-    system(cleare_screen);
+    system(clear_screen);
     return choice;
 
 
@@ -145,7 +145,7 @@ int list_contacts(){
      printf("\n\n\tPress ENTER to exit");
 
     getc(stdin);
-    system(cleare_screen);
+    system(clear_screen);
     return 0;
 }
 
@@ -172,7 +172,7 @@ int search_contact(){
     printf("\n\n\tPress ENTER to exit");
 
     getc(stdin);
-    system(cleare_screen);
+    system(clear_screen);
     return 0;
 }
 
@@ -195,7 +195,7 @@ int delete_contact(){
     printf("\nContact sucessfully deleted...\n\n\tPress ENTER to exit");
 
     getc(stdin);
-    system(cleare_screen);
+    system(clear_screen);
 
     return 0;
 
@@ -240,14 +240,14 @@ int edit_contact(){
     printf("\n\n\tPress ENTER to exit");
 
     getc(stdin);
-    system(cleare_screen);
+    system(clear_screen);
 
     return 0;
 
 }
 
 int exit_contacts(){
-    system(cleare_screen);
+    system(clear_screen);
     printf("Exiting the application...");
     exit(EXIT_SUCCESS);
 }
@@ -398,7 +398,7 @@ int delete_con(char *s_name){
         printf("\n\n\tPress ENTER to exit");
 
         getc(stdin);
-        system(cleare_screen);
+        system(clear_screen);
 
         return -1;
     }
